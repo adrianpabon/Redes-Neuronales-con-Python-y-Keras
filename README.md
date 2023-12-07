@@ -13,3 +13,17 @@ Un tensor es una generalización de vectores y matrices a un mayor número de di
     - Un tensor de 3 dimensiones puedes imaginarlo como un cubo de números.
     - Y así sucesivamente para dimensiones más altas.
 
+GitHub Copilot: Las funciones de activación en las redes neuronales son funciones matemáticas que determinan la salida de una neurona. Aquí te explico las dos que mencionaste:
+
+1. **ReLU (Rectified Linear Unit)**: Esta es la función de activación más utilizada en las redes neuronales convolucionales. La función ReLU es `f(x) = max(0, x)`, lo que significa que la función devuelve `x` si `x` es positivo; de lo contrario, devuelve 0. La función ReLU introduce la no linealidad en nuestro modelo, lo que nos permite aprender de los datos más complejos.
+
+2. **Softmax**: Esta función de activación se utiliza comúnmente en la capa de salida de un modelo de clasificación multiclase. La función Softmax convierte un vector de números en un vector de probabilidades, donde las probabilidades de cada valor son proporcionales a la proporción de ese valor sobre la suma de todos los valores. Esto significa que cada elemento del vector de salida de la función Softmax es un valor entre 0 y 1, y la suma de todos los elementos será 1.
+
+
+ORDEN 
+1. Importar librerías
+2. definir los datos de entrenamiento y test. 
+3. generar el modelo. 
+4. Entrenar el modelo
+
+![La neurona](neurona.png)

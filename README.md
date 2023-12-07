@@ -44,3 +44,20 @@ A diferencia de la AND y OR.
 Una XOR no puede ser generado por una sola neurona. Es por eso que utilizamos 2 neuronas.  
 
 ![xor](xor.png)
+
+
+
+**Arquitectura de una red neuronal**
+
+La red neuronal la manejamos por capa. 
+Cada capa avanza con respecto a la info. 
+Entre más capas más exacta será la red. 
+La capa de entrada será nuestra input layer. 
+Todo lo que esté en la mitad lo llameremos capas ocultas. 
+![Capas de la red neuronal](capas_redes.png)
+
+
+
+Esto se llama como producto punto. 
+![vectores](vectores.png)
+![Operacion producto punto](operacion_productopunto.png)

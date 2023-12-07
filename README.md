@@ -45,7 +45,7 @@ Una XOR no puede ser generado por una sola neurona. Es por eso que utilizamos 2 
 
 ![xor](xor.png)
 
-
+---------
 
 **Arquitectura de una red neuronal**
 
@@ -56,8 +56,16 @@ La capa de entrada será nuestra input layer.
 Todo lo que esté en la mitad lo llameremos capas ocultas. 
 ![Capas de la red neuronal](capas_redes.png)
 
-
+----------
 
 Esto se llama como producto punto. 
 ![vectores](vectores.png)
 ![Operacion producto punto](operacion_productopunto.png)
+![Ejemplo_productopunto](ejemplo_productopunto.png)
+
+----------
+
+
+## Funciones de activación
+
+Las funciones de activación hacen referencia a una función matemática que se aplica a la salida de una neurona. Esto se realiza para introducir no linealidad en el modelo.

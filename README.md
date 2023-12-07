@@ -27,3 +27,20 @@ ORDEN
 4. Entrenar el modelo
 
 ![La neurona](neurona.png)
+Esta neurona se llama perceptrón.
+Tenemos las entradas y pesos de la neurona (W). 
+Dentro de la neurona tenemos sumas ponderadas. 
+la B de Bias es para darle elasticidad a nuestro modelo. De manera que si da 0 la suma va a tomar otro valor por la elasticidad. 
+
+![Forma matemática de la neurona](forma_matematica.png)
+
+En el siguiente ejemplo, variando los pesos y el Bias nos fijamos en la salida. En la primera imagen se evidencia que no es una compuerta AND
+![Ejemplo con el AND](ejemplo_AND.png)
+
+![and corregida](and_corregida.png)
+
+
+A diferencia de la AND y OR. 
+Una XOR no puede ser generado por una sola neurona. Es por eso que utilizamos 2 neuronas.  
+
+![xor](xor.png)

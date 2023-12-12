@@ -26,7 +26,7 @@ ORDEN
 3. generar el modelo. 
 4. Entrenar el modelo
 
-![La neurona](neurona.png)
+![La neurona](Imágenes/neurona.png)
 Esta neurona se llama perceptrón.
 Tenemos las entradas y pesos de la neurona (W). 
 Dentro de la neurona tenemos sumas ponderadas. 

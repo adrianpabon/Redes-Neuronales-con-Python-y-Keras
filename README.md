@@ -74,3 +74,17 @@ Las funciones de activación hacen referencia a una función matemática que se 
 Hay funciones de activación discretas y continuas. 
 
 ![Alt text](Imágenes/escalon.png)
+
+--
+
+![Alt text](Imágenes/signo.png)
+
+-- 
+![Alt text](Imágenes/sigmoidal.png)
+La sigmoidal es buena para probabilidades. 
+Tiene desventajas porque los valores altos los acerca a 1 y los muy bajos a 0. 
+Tiene una ventaja por la derivada en back propagation. 
+
+--
+![Alt text](Imágenes/tanh.png)
+

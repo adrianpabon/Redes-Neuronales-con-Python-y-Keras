@@ -70,3 +70,7 @@ Esto se llama como producto punto.
 ## Funciones de activación
 
 Las funciones de activación hacen referencia a una función matemática que se aplica a la salida de una neurona. Esto se realiza para introducir no linealidad en el modelo.
+
+Hay funciones de activación discretas y continuas. 
+
+![Alt text](Imágenes/escalon.png)

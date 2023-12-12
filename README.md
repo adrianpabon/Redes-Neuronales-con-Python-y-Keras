@@ -27,23 +27,24 @@ ORDEN
 4. Entrenar el modelo
 
 ![La neurona](Imágenes/neurona.png)
+
 Esta neurona se llama perceptrón.
 Tenemos las entradas y pesos de la neurona (W). 
 Dentro de la neurona tenemos sumas ponderadas. 
 la B de Bias es para darle elasticidad a nuestro modelo. De manera que si da 0 la suma va a tomar otro valor por la elasticidad. 
 
-![Forma matemática de la neurona](forma_matematica.png)
+![Forma matemática de la neurona](Imágenes/forma_matematica.png)
 
 En el siguiente ejemplo, variando los pesos y el Bias nos fijamos en la salida. En la primera imagen se evidencia que no es una compuerta AND
-![Ejemplo con el AND](ejemplo_AND.png)
+![Ejemplo con el AND](Imágenes/ejemplo_AND.png)
 
-![and corregida](and_corregida.png)
+![and corregida](Imágenes/and_corregida.png)
 
 
 A diferencia de la AND y OR. 
 Una XOR no puede ser generado por una sola neurona. Es por eso que utilizamos 2 neuronas.  
 
-![xor](xor.png)
+![xor](Imágenes/xor.png)
 
 ---------
 
@@ -54,14 +55,14 @@ Cada capa avanza con respecto a la info.
 Entre más capas más exacta será la red. 
 La capa de entrada será nuestra input layer. 
 Todo lo que esté en la mitad lo llameremos capas ocultas. 
-![Capas de la red neuronal](capas_redes.png)
+![Capas de la red neuronal](Imágenes/capas_redes.png)
 
 ----------
 
 Esto se llama como producto punto. 
-![vectores](vectores.png)
-![Operacion producto punto](operacion_productopunto.png)
-![Ejemplo_productopunto](ejemplo_productopunto.png)
+![vectores](Imágenes/vectores.png)
+![Operacion producto punto](Imágenes/operacion_productopunto.png)
+![Ejemplo_productopunto](Imágenes/ejemplo_productopunto.png)
 
 ----------
 

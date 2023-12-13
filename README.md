@@ -108,7 +108,7 @@ Es una forma de saber la calidad de predicción de nuestro modelo.
 Para esto, el modelo toma los valores reales con los que predice y genera un score. 
 Si la función de pérdida es baja quiere decir que estamos cerca de realizar una predicción buena. 
 
-# MSE Mean squared error 
+### MSE Mean squared error 
 Es una pérdida que se implementa en algoritmos de regresión lineal. 
 
 | MSE  | MSE |

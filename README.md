@@ -135,9 +135,25 @@ Un learning rate muy alto es tan rápido que no podría encontrar el punto más 
 
 Por eso queremos un learning rate medio que permita encontrar el punto más bajo en un tiempo eficiente. 
 
-| MSE  | MSE |
+| Gradiente  | Mínimos |
 | ------------- | ------------- |
 | ![Alt text](Imágenes/gradiente.png) | ![Alt text](Imágenes/minimos.png) |
 
+El optimizador *rmsprop* es una distribución extra del gradiente que cuenta con momentum.
 
 
+
+## Backpropagation 
+
+Es un algoritmo que consiste en cómo distribuir el error en todo el modelo. 
+con la información que nos da la función de pérdida se pasa por el descenso del gradiente para disminuir los errores actualizando los pesos con el optimizador 
+
+![Alt text](Imágenes/backpropagation.png)
+
+Sin embargo, la función de pérdida se le agrega a la última capa, y este error fue también por la capa anterior. 
+
+Este algoritmo trabaja yendo desde la última capa hasta la capa de inicio, disminuyendo el error. 
+
+Esto se hace con las derivadas parciales. Es por eso que es importante que las funciones de activación y función de pérdida tengan derivada. 
+
+![Alt text](Imágenes/dev_parciales.png)

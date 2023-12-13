@@ -88,3 +88,29 @@ Tiene una ventaja por la derivada en back propagation.
 --
 ![Alt text](Imágenes/tanh.png)
 
+
+--- 
+
+Función lineal rectificada 
+Usada para capas ocultas
+![Alt text](Imágenes/relu.png)
+
+---
+Función softmax 
+
+Nos da la probabilidad de cada una de las posibles salidas. 
+![Alt text](Imágenes/softmax.png)
+
+
+## Función de pérdida 
+
+Es una forma de saber la calidad de predicción de nuestro modelo. 
+Para esto, el modelo toma los valores reales con los que predice y genera un score. 
+Si la función de pérdida es baja quiere decir que estamos cerca de realizar una predicción buena. 
+
+# MSE Mean squared error 
+Es una pérdida que se implementa en algoritmos de regresión lineal. 
+
+| MSE  | MSE |
+| ------------- | ------------- |
+| ![Alt text](Imágenes/MSE.png)  | ![Alt text](Imágenes/formulaMSE.png) |

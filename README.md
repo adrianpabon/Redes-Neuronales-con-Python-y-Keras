@@ -111,6 +111,33 @@ Si la función de pérdida es baja quiere decir que estamos cerca de realizar un
 ### MSE Mean squared error 
 Es una pérdida que se implementa en algoritmos de regresión lineal. 
 
+Este tipo nos ayuda en el caso de predecir el valor de una casa. 
+
 | MSE  | MSE |
 | ------------- | ------------- |
 | ![Alt text](Imágenes/MSE.png)  | ![Alt text](Imágenes/formulaMSE.png) |
+
+### Cross Entropy
+
+Para valores categóricos o predicción de clasificación. 
+
+![Alt text](Imágenes/cross_entropy.png)
+
+## Descenso del gradiente 
+
+Se busca el punto más bajo porque como se mencionó en la función de pérdida, entre más bajo sea serás más preciso. 
+
+Hay un concepto de Learning Rate, lo ponemos ver como los pasos para encontrar el punto más bajo de la función. 
+
+Un learning rate muy bajo es tan lento que consumiría recursos sin llegar al punto. 
+
+Un learning rate muy alto es tan rápido que no podría encontrar el punto más bajo. 
+
+Por eso queremos un learning rate medio que permita encontrar el punto más bajo en un tiempo eficiente. 
+
+| MSE  | MSE |
+| ------------- | ------------- |
+| ![Alt text](Imágenes/gradiente.png) | ![Alt text](Imágenes/minimos.png) |
+
+
+
